@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main(){
+	int secret_number;
+	int guess_number;
+	secret_number = 5;
+	int guess_limit;
+	for(i=l;i<=guess_limit; i++){
+		printf("Guess number %d : ", i);
+		scanf("%d", &guess_number)
+		if(guess_number==secret_number)
+		{
+			printf("You win !!");
+			break;
+		}else(){
+			printf("You lose");
+		}
+	}
+	return 0;
+}
